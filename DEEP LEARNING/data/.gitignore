@@ -1,0 +1,5 @@
+# Ignore extracted CIFAR-10 dataset files (can be regenerated from cifar-10-python.tar.gz)
+cifar-10-batches-py/
+
+# Ignore dataset archives (can be downloaded from source)
+*.tar.gz
