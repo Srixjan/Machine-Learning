@@ -4,3 +4,7 @@
 __pycache__/
 .env
 *.data
+
+# Dataset files
+DEEP LEARNING/data/cifar-10-batches-py/
+DEEP LEARNING/data/*.tar.gz
