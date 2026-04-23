@@ -1,10 +1,34 @@
+# Data files - DO NOT PUSH
 *.csv
 *.xlsx
-.ipynb_checkpoints/
-__pycache__/
-.env
+*.json
+*.pkl
+*.pickle
+*.parquet
+*.h5
+*.hdf5
+*.tar.gz
+*.zip
+*.rar
+*.7z
 *.data
 
-# Dataset files
-DEEP LEARNING/data/cifar-10-batches-py/
-DEEP LEARNING/data/*.tar.gz
+# Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# Environment files
+.env
+*.pyc
+
+# Data directories - ALL ignored
+*/data/
+data/
+DEEP LEARNING/data/
+Supervised ML/*/data/
+Unsupervised ML/*/data/
+
+# Model files
+*.pt
+*.pth
+best_model.pt
